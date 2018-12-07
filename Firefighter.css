@@ -1,0 +1,74 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color: black;
+  font: 12pt "Tahoma", "Arial", sans-serif;
+}
+
+#wrapper{
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+header {
+background-color: Aqua;
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+}
+
+article {
+background-color: white;
+width: 300px;
+height: 507px;
+float: left;
+}
+
+main {
+background-color: white;
+width: 600px;
+clear: none;
+float: right;
+
+}
+
+
+
+#main img{
+
+}
+
+
+footer {
+width: 900px;
+clear: both;
+background-color: yellow;
+
+}
+
+
+input.MyButton {
+width: 100px;
+padding: 10px;
+cursor: pointer;
+font-weight: bold;
+font-size: 70%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+
+input.MyButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
+
+
